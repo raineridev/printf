@@ -6,7 +6,7 @@
 /*   By: mraineri <mraineri@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/26 17:24:35 by mraineri          #+#    #+#             */
-/*   Updated: 2024/09/03 13:25:28 by mraineri         ###   ########.fr       */
+/*   Updated: 2024/09/03 15:36:36 by mraineri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,7 @@ void	ft_putunnbr_fd_increment(unsigned int n, int fd, int *c);
 void    ft_str_increment(char *s, int *counter);
 void	ft_putchar_fd(char c, int fd);
 void    ft_pointer(void *addr, int *counter);
+void    ft_hex_p(unsigned long long decimal, int *counter);
 // Size_t
 size_t	ft_strlen(const char *str);
 // Other function prototypes
