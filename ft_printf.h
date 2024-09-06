@@ -6,7 +6,7 @@
 /*   By: mraineri <mraineri@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/26 17:24:35 by mraineri          #+#    #+#             */
-/*   Updated: 2024/09/03 15:36:36 by mraineri         ###   ########.fr       */
+/*   Updated: 2024/09/03 15:48:53 by mraineri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@
 # include <stdlib.h>
 # include <limits.h>
 # include <unistd.h>
-# include <stdarg.h>
+
 
 // Void
 void    ft_int_to_hex_lowercase(unsigned int decimal, int *counter);

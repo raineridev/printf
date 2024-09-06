@@ -6,7 +6,7 @@
 #    By: mraineri <mraineri@student.42lisboa.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/08/26 17:16:53 by mraineri          #+#    #+#              #
-#    Updated: 2024/09/03 15:43:32 by mraineri         ###   ########.fr        #
+#    Updated: 2024/09/06 14:51:15 by mraineri         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -41,8 +41,6 @@ fclean: clean
 
 re: fclean all
 
-test: $(NAME)
-	rm -f $(OFILES) $(BONUS_OBJS)
 .DEFAULT_GOAL := all
 
 
