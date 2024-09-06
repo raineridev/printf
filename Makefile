@@ -6,13 +6,13 @@
 #    By: mraineri <mraineri@student.42lisboa.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/08/26 17:16:53 by mraineri          #+#    #+#              #
-#    Updated: 2024/09/06 15:02:21 by mraineri         ###   ########.fr        #
+#    Updated: 2024/09/06 15:18:14 by mraineri         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 ## Variables
 
-NAME := ft_printf.a
+NAME := libftprintf.a
 
 CC := cc 
 CFLAGS := -Wall -Wextra -Werror
