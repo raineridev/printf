@@ -19,4 +19,3 @@ void	ft_putunnbr_fd_increment(unsigned int n, int fd, int *c)
 		ft_putnbr_fd_increment(n / 10, fd, c);
 	ft_putchar_fd((n % 10) + '0', fd);
 }
-

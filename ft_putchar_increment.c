@@ -12,10 +12,10 @@
 
 #include "ft_printf.h"
 
-void ft_putchar_increment(char c, int *counter) 
+void	ft_putchar_increment(char c, int *counter)
 {
-    if(!counter)
-        return ;
-    write(1, &c, 1);
-    (*counter)++;
+	if (!counter)
+		return ;
+	write(1, &c, 1);
+	(*counter)++;
 }

@@ -12,12 +12,12 @@
 
 #include "ft_printf.h"
 
-void ft_str_increment(char *s, int *counter) 
+void	ft_str_increment(char *s, int *counter)
 {
-    if(!counter)
-        return ;
-    if(!s)
-        s = "(null)";
-    write(1, s, ft_strlen(s));
-    *counter += ft_strlen(s);
+	if (!counter)
+		return ;
+	if (!s)
+		s = "(null)";
+	write(1, s, ft_strlen(s));
+	*counter += ft_strlen(s);
 }

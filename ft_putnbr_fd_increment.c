@@ -28,9 +28,6 @@ void	ft_putnbr_fd_increment(int n, int fd, int *c)
 	}
 	(*c)++;
 	if (n > 9)
-	{
 		ft_putnbr_fd_increment(n / 10, fd, c);
-	}
 	ft_putchar_fd((n % 10) + '0', fd);
 }
-

@@ -12,15 +12,16 @@
 
 #include "ft_printf.h"
 
-void ft_int_to_hex(unsigned int decimal, int *counter)
-{   
-    char *hex = "0123456789ABCDEF";
+void	ft_int_to_hex(unsigned int decimal, int *counter)
+{
+	char	*hex;
 
-    if (decimal >= 16)
-        ft_int_to_hex(decimal / 16, counter);
-    write(1, &hex[decimal % 16], 1);
-    if (counter)
-        (*counter)++;  
+	hex = "0123456789ABCDEF";
+	if (decimal >= 16)
+		ft_int_to_hex(decimal / 16, counter);
+	write(1, &hex[decimal % 16], 1);
+	if (counter)
+		(*counter)++;
 }
 
 // int main(void)
