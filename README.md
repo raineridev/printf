@@ -23,3 +23,5 @@ My own printf function
 ![App Screenshot](https://media.discordapp.net/attachments/1080586501387190344/1283732952030646293/image.png?ex=66e75cba&is=66e60b3a&hm=98e2a654806ba353d6140687255afc2d76e6bc6286ca03d594dc15bcb8aa0f34&=&format=webp&quality=lossless)
 ### ft_printf tester
 ![App Screenshot](https://media.discordapp.net/attachments/1080586501387190344/1283733635819896884/image.png?ex=66e75d5d&is=66e60bdd&hm=8cc0bb87f03ee1133599738655251004521b14ad749fa694360a5ea66d40496c&=&format=webp&quality=lossless)
+## Grade
+![App Screenshot](https://media.discordapp.net/attachments/1080586501387190344/1285564427415978078/image.png?ex=66eabaac&is=66e9692c&hm=412ef343fc34de1b8ccd168efd8e2a932d6f1660b1c7d80932ee5ef4486f46b5&=&format=webp&quality=lossless)
